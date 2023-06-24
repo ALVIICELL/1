@@ -271,7 +271,7 @@ echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}XRAY${NC}"
 echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
-echo -e "${GREEN}SEMOGA REJEKIMU MELIMPAH KAWAN, TETAP SEMANGAT${NC}" 
+echo -e "${GREEN}      SEMOGA REJEKIMU MELIMPAH KAWAN, TETAP SEMANGAT${NC}" 
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC" 
