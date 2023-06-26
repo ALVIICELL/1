@@ -308,6 +308,8 @@ wget -O about "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/restart.sh"
 wget -O bw "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/bw.sh"
+wget -O user-lock "https://raw.githubusercontent.com/ALVIICELL/1/main/user-lock.sh"
+wget -O user-unlock "https://raw.githubusercontent.com/ALVIICELL/1/main/user-unlock.sh"
 
 # change port
 wget -O port-ssl "https://raw.githubusercontent.com/ALVIICELL/1/main/port/port-ssl.sh"
@@ -361,6 +363,8 @@ chmod +x about
 chmod +x auto-reboot
 chmod +x restart
 chmod +x bw
+chmod +x user-lock
+chmod +x user-unlock
 
 chmod +x port-ssl
 chmod +x port-ovpn
