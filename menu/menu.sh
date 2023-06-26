@@ -292,6 +292,8 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}] DOMAIN FREE${NC} "
 echo -e "     ${BICyan}[${BIWhite}12${BICyan}] INSTAL UDP${NC} "
 echo -e "     ${BICyan}[${BIWhite}13${BICyan}] GANTI NS DOMAIN${NC} "
+echo -e "     ${BICyan}[${BIWhite}14${BICyan}] LOCK${NC} "
+echo -e "     ${BICyan}[${BIWhite}15${BICyan}] UNLOCK${NC} "
 echo -e "     ${BICyan}[${BIWhite}99${BICyan}] CLEAR SAMPAH${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
@@ -319,6 +321,8 @@ case $opt in
 11) clear ; cf ;;
 12) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
 13) clear ; slow ;;
+14) clear ; user-lock ;;
+15) clear ; user-unlock ;;
 99) clear ; clearcache ;;
 6969) clear ; wget https://raw.githubusercontent.com/ALVIICELL/1/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
