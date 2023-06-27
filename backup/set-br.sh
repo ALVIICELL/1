@@ -37,7 +37,7 @@ port 587
 auth on
 user alviic3ll@gmail.com
 from alviic3ll@gmail.com
-password bbzfejsrfntthudz
+password bbzfejsrfntthudzz
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
