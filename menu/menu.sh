@@ -294,6 +294,7 @@ echo -e "     ${BICyan}[${BIWhite}12${BICyan}] INSTAL UDP${NC} "
 echo -e "     ${BICyan}[${BIWhite}13${BICyan}] GANTI NS DOMAIN${NC} "
 echo -e "     ${BICyan}[${BIWhite}14${BICyan}] LOCK${NC} "
 echo -e "     ${BICyan}[${BIWhite}15${BICyan}] UNLOCK${NC} "
+echo -e "     ${BICyan}[${BIWhite}16${BICyan}] UPDATE SC${NC} "
 echo -e "     ${BICyan}[${BIWhite}99${BICyan}] CLEAR SAMPAH${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
@@ -323,6 +324,7 @@ case $opt in
 13) clear ; slow ;;
 14) clear ; user-lock ;;
 15) clear ; user-unlock ;;
+16) clear ; up ;;
 99) clear ; clearcache ;;
 6969) clear ; wget https://raw.githubusercontent.com/ALVIICELL/1/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
