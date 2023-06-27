@@ -1,3 +1,4 @@
+
 #!/bin/bash
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
@@ -51,6 +52,7 @@ rm -rf jam
 rm -rf up
 rm -rf genssl
 rm -rf slow
+rm -rf up
 
 # download script
 cd /usr/bin
@@ -110,6 +112,7 @@ wget -O menu-backup "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/m
 wget -O backup "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/backup.sh"
 wget -O restore "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/restore.sh"
 wget -O jam "https://raw.githubusercontent.com/ALVIICELL/1/main/jam.sh"
+wget -O up "https://raw.githubusercontent.com/ALVIICELL/1/main/up.sh"
 
 chmod +x menu
 chmod +x menu-trial
