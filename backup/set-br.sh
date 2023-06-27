@@ -14,7 +14,6 @@ LIGHT='\033[0;37m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 # Link Hosting Kalian
-ALVIICELL="raw.githubusercontent.com/ALVIICELL/1/main/backup"
 
 apt install rclone -y
 printf "q\n" | rclone config
