@@ -36,8 +36,8 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user alvic3l@gmail.com
-from alvic3l@gmail.com
+user alviic3l@gmail.com
+from alviic3l@gmail.com
 password adkrrglbmecdtxle
 logfile ~/.msmtp.log
 EOF
