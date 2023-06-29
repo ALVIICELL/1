@@ -113,6 +113,7 @@ wget -O backup "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/backup
 wget -O restore "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/restore.sh"
 wget -O jam "https://raw.githubusercontent.com/ALVIICELL/1/main/jam.sh"
 wget -O up "https://raw.githubusercontent.com/ALVIICELL/1/main/up.sh"
+wget -O up "https://raw.githubusercontent.com/ALVIICELL/1/main/backup/set-br.sh"
 
 chmod +x menu
 chmod +x menu-trial
