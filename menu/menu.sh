@@ -321,7 +321,7 @@ case $opt in
 10) clear ; jam ;;
 11) clear ; cf ;;
 12) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-13) clear ; slow ;;
+13) clear ; slowdns ;;
 14) clear ; user-lock ;;
 15) clear ; user-unlock ;;
 16) clear ; up ;;
