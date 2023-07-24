@@ -261,7 +261,7 @@ echo -e "${BIYellow}□ CPU Usage           = $cpu_usage"
 echo -e "${BIYellow}□ Clients Name        = ${GREEN}$Name${NC}"
 echo -e "${BIYellow}□ Expired Script VPS  = ${GREEN}$Exp${NC}"
 echo -e "${BIYellow}□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"
-echo -e "${BIYellow}□ License Limit       = ORDER ${GREEN}( 082183496832 )${NC}"
+echo -e "${BIYellow}□ License Limit       = ORDER 📞   ${red}( 082183496832 )${NC}"
 echo -e "${BIYellow}□ AutoScript by       = Bos ${GREEN}( ALVI CELL )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
@@ -303,7 +303,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e " ${BICyan}│  Version      ${NC} : 1.05   "
 echo -e " ${BICyan}│  User       ${NC}   :\033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  Day Expired${NC}   : $Exp"
+echo -e " ${BICyan}│  Day Expired${NC}   : $Exp" "$exp2 days ${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
