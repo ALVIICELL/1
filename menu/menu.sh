@@ -281,21 +281,21 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] RUNNING             │"
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
+echo -e "     ${BICyan}[${BIWhite}1 👉${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "  ${BICyan}[${BIWhite}6 👉${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
+echo -e "     ${BICyan}[${BIWhite}2 👉${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}7 👉${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │"
+echo -e "     ${BICyan}[${BIWhite}3 👉${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "    ${BICyan}[${BIWhite}8 👉${BICyan}] ADD-HOST      ${NC}" "${BICyan}     │"
+echo -e "     ${BICyan}[${BIWhite}4 👉${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}9 👉${BICyan}] RUNNING             │"
+echo -e "     ${BICyan}[${BIWhite}5 👉${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "   ${BICyan}[${BIWhite}10 👉${BICyan}] SET REBOOT${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   │${NC}"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan}                  MENU TAMBAHAN${NC} "
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}11${BICyan}] DOMAIN FREE${NC} "
-echo -e "     ${BICyan}[${BIWhite}12${BICyan}] INSTAL UDP${NC} "
-echo -e "     ${BICyan}[${BIWhite}13${BICyan}] GANTI NS DOMAIN${NC} "
-echo -e "     ${BICyan}[${BIWhite}14${BICyan}] LOCK${NC} "
-echo -e "     ${BICyan}[${BIWhite}15${BICyan}] UNLOCK${NC} "
-echo -e "     ${BICyan}[${BIWhite}16${BICyan}] UPDATE SC${NC} "
-echo -e "     ${BICyan}[${BIWhite}99${BICyan}] CLEAR SAMPAH${NC} "
+echo -e "     ${BICyan}[${BIWhite}11 🔐${BICyan}] SET PW VPS${NC} "
+echo -e "     ${BICyan}[${BIWhite}12 👉${BICyan}] INSTAL UDP${NC} "
+echo -e "     ${BICyan}[${BIWhite}13 👉${BICyan}] GANTI NS DOMAIN${NC} "
+echo -e "     ${BICyan}[${BIWhite}14 👉${BICyan}] LOCK SSH${NC} "
+echo -e "     ${BICyan}[${BIWhite}15 👉${BICyan}] UNLOCK SSH${NC} "
+echo -e "     ${BICyan}[${BIWhite}16 👉${BICyan}] UPDATE SC${NC} "
+echo -e "     ${BICyan}[${BIWhite}99 👉${BICyan}] CLEAR SAMPAH${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
@@ -319,7 +319,7 @@ case $opt in
 8) clear ; addhost ;;
 9) clear ; running ;;
 10) clear ; jam ;;
-11) clear ; cf ;;
+11) clear ; passwd ;;
 12) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
 13) clear ; slowdns ;;
 14) clear ; user-lock ;;
