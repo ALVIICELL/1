@@ -278,7 +278,7 @@ echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $res
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "     ${BICyan}[${BIWhite}1${red}]👉 SSH    " "  ${BICyan}[${BIWhite}6${red}]👉 TRIALL    " ${BICyan}[${BIWhite}11${red}]🔐 SET PW VPS${NC} "
 echo -e "     ${BICyan}[${BIWhite}2${red}]👉 VMESS  " "  ${BICyan}[${BIWhite}7${red}]👉 BACKUP    " ${BICyan}[${BIWhite}12${red}]👉 UPDATE SC${NC} "
-echo -e "     ${BICyan}[${BIWhite}3${red}]👉 VLESS  " "  ${BICyan}[${BIWhite}8${red}]👉 ADD-HOST  "${BICyan}[${BIWhite}99${red}]👉 CLEAR SAMPAH${NC} "
+echo -e "     ${BICyan}[${BIWhite}3${red}]👉 VLESS  " "  ${BICyan}[${BIWhite}8${red}]👉 ADD-HOST  "${BICyan} [${BIWhite}99${red}]👉 CLEAR SAMPAH${NC} "
 echo -e "     ${BICyan}[${BIWhite}4${red}]👉 TROJAN " "  ${BICyan}[${BIWhite}9${red}]👉 RUNNING   "
 echo -e "     ${BICyan}[${BIWhite}5${red}]👉 SETING " "  ${BICyan}[${BIWhite}10${red}]👉 SET REBOOT"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
