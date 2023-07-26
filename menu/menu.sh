@@ -294,7 +294,7 @@ echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMA
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
-echo -e ""
+echo -e "
 case $opt in
 1) clear ; menu-ssh ;;
 2) clear ; menu-vmess ;;
