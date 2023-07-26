@@ -254,21 +254,20 @@ echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━�
 echo -e "${BIYellow}□ Server Uptime       = ${GREEN}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
 echo -e "${BIYellow}□ Current Time        = ${GREEN}$( date -d "0 days" +"%d-%m-%Y | %X" )${NC}"
 echo -e "${BIYellow}□ Operating System    = ${GREEN}$( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}"
+echo -e "${BIYellow}□ IP VPS              = ${BIYellow}$IPVPS${NC}"
 echo -e "${BIYellow}□ Current Domain      = ${GREEN}$( cat /etc/xray/domain )${NC}"
 echo -e "${BIYellow}□ NS Domain           = ${GREEN}$(cat /root/nsdomain)${NC}"
 echo -e "${BIYellow}□ Jumlah Ram          = ${GREEN}${totalram}MB"
 echo -e "${BIYellow}□ CPU Usage           = $cpu_usage"
-echo -e "${BIYellow}□ whatsapp       =  📞   ${red}( 082183496832 )${NC}"
+echo -e "${BIYellow}□ whatsapp            =  📞   ${red}( 082183496832 )${NC}"
 echo -e "${BIYellow}□ AutoScript by       = ${GREEN}( ALVI CELL )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
-echo -e "${BICyan} │"
-echo -e " ${BICyan}│  ${BICyan}Use Core        :  ${BIPurple}XRAY${NC}"
-echo -e " ${BICyan}│  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
+echo -e " ${BICyan}│  ${BICyan}Version       ${NC} : 1.07  
+echo -e " ${BICyan}│  ${BICyan}user          ${NC} : \033[1;36m $Name \e[0m"
+echo -e " ${BICyan}│  ${BICyan}script expired${NC} : \033[1;36m $Name \e[0m"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
-
-echo -e "${GREEN}      SEMOGA REJEKIMU MELIMPAH KAWAN, TETAP SEMANGAT${NC}" 
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC" 
@@ -287,23 +286,15 @@ echo -e " ${BICyan}└───────────────────�
 echo -e "${BICyan}                  MENU TAMBAHAN${NC} "
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}]🔐 SET PW VPS${NC} "
-echo -e "     ${BICyan}[${BIWhite}12${BICyan}]👉 INSTAL UDP${NC} "
-echo -e "     ${BICyan}[${BIWhite}13${BICyan}]👉 GANTI NS DOMAIN${NC} "
-echo -e "     ${BICyan}[${BIWhite}14${BICyan}]👉 LOCK SSH${NC} "
-echo -e "     ${BICyan}[${BIWhite}15${BICyan}]👉 UNLOCK SSH${NC} "
-echo -e "     ${BICyan}[${BIWhite}16${BICyan}]👉 UPDATE SC${NC} "
+echo -e "     ${BICyan}[${BIWhite}12${BICyan}]👉 UPDATE SC${NC} "
 echo -e "     ${BICyan}[${BIWhite}99${BICyan}]👉 CLEAR SAMPAH${NC} "
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e " ${BICyan}│  Version      ${NC} : 1.06   "
-echo -e " ${BICyan}│  User       ${NC}   :\033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  Day Expired${NC}   : ${NC}${MK}($Exp)"
-echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
+
 echo
-read -p " Select menu : " opt
+read -p " Pilih Menu Bosku : " opt
 echo -e ""
 case $opt in
 1) clear ; menu-ssh ;;
@@ -317,11 +308,7 @@ case $opt in
 9) clear ; running ;;
 10) clear ; jam ;;
 11) clear ; passwd ;;
-12) clear ; clear ; wget --load-cookies /tmp/cookies.txt ${UDPX} -O install-udp && rm -rf /tmp/cookies.txt && chmod +x install-udp && ./install-udp ;;
-13) clear ; slowdns ;;
-14) clear ; user-lock ;;
-15) clear ; user-unlock ;;
-16) clear ; up ;;
+11) clear ; up ;;
 99) clear ; clearcache ;;
 6969) clear ; wget https://raw.githubusercontent.com/ALVIICELL/1/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
