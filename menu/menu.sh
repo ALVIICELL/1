@@ -306,7 +306,7 @@ case $opt in
 9) clear ; running ;;
 10) clear ; jam ;;
 11) clear ; passwd ;;
-11) clear ; up ;;
+12) clear ; up ;;
 99) clear ; clearcache ;;
 6969) clear ; wget https://raw.githubusercontent.com/ALVIICELL/1/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
