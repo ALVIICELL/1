@@ -264,9 +264,9 @@ echo -e "${BIYellow}□ AutoScript by       = ${GREEN}( ALVI CELL )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
-echo -e " ${BICyan}│  ${BICyan}Version       ${NC} : 1.07  
-echo -e " ${BICyan}│  ${BICyan}user          ${NC} : \033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  ${BICyan}script expired${NC} : \033[1;36m $Name \e[0m"
+echo -e " ${BICyan}│  Version       ${NC} : 1.07  
+echo -e " ${BICyan}│  user          ${NC} : \033[1;36m $Name \e[0m"
+echo -e " ${BICyan}│  script expired${NC} : \033[1;36m $Name \e[0m"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
@@ -292,7 +292,6 @@ echo -e "${BICyan} └───────────────────�
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-
 echo
 read -p " Pilih Menu Bosku : " opt
 echo -e ""
