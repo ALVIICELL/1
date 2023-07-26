@@ -265,7 +265,7 @@ echo -e "${BIYellow}□ AutoScript by       = ${GREEN}( ALVI CELL )${NC}"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
 echo -e " ${BICyan}│  Version       ${NC} : 1.07  
-echo -e " ${BICyan}│  user          ${NC} : \033[1;36m $Name \e[0m"
+echo -e " ${BICyan}│  user          ${NC} : ${GREEN}$Name${NC}"
 echo -e " ${BICyan}│  expired${NC}        : $Exp"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
