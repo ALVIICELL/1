@@ -266,7 +266,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
 echo -e " ${BICyan}│  Version       ${NC} : 1.07  
 echo -e " ${BICyan}│  user          ${NC} : \033[1;36m $Name \e[0m"
-echo -e " ${BICyan}│  expired${NC}        : \033[1;36m $Name \e[0m"
+echo -e " ${BICyan}│  expired${NC}        : $Exp"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}" 
