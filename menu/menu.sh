@@ -263,7 +263,6 @@ echo -e "${BIYellow}□ whatsapp            =  📞   ${red}( 082183496832 )${NC
 echo -e "${BIYellow}□ AutoScript by       = ${GREEN}( ALVI CELL )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
 echo -e " ${BICyan}│  Version       ${NC} : 1.07"  
 echo -e " ${BICyan}│  user          ${NC} : ${GREEN}$Name${NC}"
 echo -e " ${BICyan}│  expired${NC}        : $Exp"
