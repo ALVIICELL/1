@@ -248,7 +248,7 @@ export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m                     ⇱ INFORMASI VPS ⇲                        \E[0m"
+echo -e "\E[44;1;39m                   👑 ALVI CELL TUNNEL 👑                          \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "${BIYellow}□ Server Uptime       = ${GREEN}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
@@ -258,11 +258,8 @@ echo -e "${BIYellow}□ Current Domain      = ${GREEN}$( cat /etc/xray/domain )$
 echo -e "${BIYellow}□ NS Domain           = ${GREEN}$(cat /root/nsdomain)${NC}"
 echo -e "${BIYellow}□ Jumlah Ram          = ${GREEN}${totalram}MB"
 echo -e "${BIYellow}□ CPU Usage           = $cpu_usage"
-echo -e "${BIYellow}□ Clients Name        = ${GREEN}$Name${NC}"
-echo -e "${BIYellow}□ Expired Script VPS  = ${GREEN}$Exp${NC}"
-echo -e "${BIYellow}□ Time Reboot VPS     = 00:00 ${GREEN}( Jam 12 Malam )${NC}"
-echo -e "${BIYellow}□ License Limit       = ORDER 📞   ${red}( 082183496832 )${NC}"
-echo -e "${BIYellow}□ AutoScript by       = Bos ${GREEN}( ALVI CELL )${NC}"
+echo -e "${BIYellow}□ whatsapp       =  📞   ${red}( 082183496832 )${NC}"
+echo -e "${BIYellow}□ AutoScript by       = ${GREEN}( ALVI CELL )${NC}"
 
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}ALVI CELL TUNELING${NC}"
