@@ -292,9 +292,10 @@ echo -e "${BICyan} └───────────────────�
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon$NC $NC"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
-echo
-read -p " Pilih Menu Bosku : " opt
 echo -e ""
+echo -e   "${white}"
+read -p " Pilih Menu Bosku:"    opt
+echo -e   ""
 case $opt in
 1) clear ; menu-ssh ;;
 2) clear ; menu-vmess ;;
