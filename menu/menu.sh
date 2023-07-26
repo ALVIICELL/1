@@ -295,7 +295,6 @@ echo -e "${BICyan} └───────────────────�
 echo -e ""
 echo -e   "${white}"
 read -p " Pilih Menu Bosku:"    opt
-echo -e ""
 case $opt in
 1) clear ; menu-ssh ;;
 2) clear ; menu-vmess ;;
