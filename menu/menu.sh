@@ -248,7 +248,7 @@ export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${Red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${whiteK}              👑 ALVI CELL TUNNEL 👑                          ${NC}"
+echo -e "${red}              👑 ALVI CELL TUNNEL 👑                          ${NC}"
 echo -e "${Red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "${BIYellow}□ Server Uptime       = ${GREEN}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
@@ -276,9 +276,9 @@ echo -e "${GREEN}└────────────────────
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
 echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}1${red}]👉 SSH    " "  ${BICyan}[${BIWhite}6${red}]👉 TRIALL    "
-echo -e "     ${BICyan}[${BIWhite}2${red}]👉 VMESS  " "  ${BICyan}[${BIWhite}7${red}]👉 BACKUP    "
-echo -e "     ${BICyan}[${BIWhite}3${red}]👉 VLESS  " "  ${BICyan}[${BIWhite}8${red}]👉 ADD-HOST  "
+echo -e "     ${BICyan}[${BIWhite}1${red}]👉 SSH    " "  ${BICyan}[${BIWhite}6${red}]👉 TRIALL    " ${BICyan}[${BIWhite}11${BICyan}]🔐 SET PW VPS${NC} "
+echo -e "     ${BICyan}[${BIWhite}2${red}]👉 VMESS  " "  ${BICyan}[${BIWhite}7${red}]👉 BACKUP    " ${BICyan}[${BIWhite}12${BICyan}]👉 UPDATE SC${NC} "
+echo -e "     ${BICyan}[${BIWhite}3${red}]👉 VLESS  " "  ${BICyan}[${BIWhite}8${red}]👉 ADD-HOST  "${BICyan}[${BIWhite}99${BICyan}]👉 CLEAR SAMPAH${NC} "
 echo -e "     ${BICyan}[${BIWhite}4${red}]👉 TROJAN " "  ${BICyan}[${BIWhite}9${red}]👉 RUNNING   "
 echo -e "     ${BICyan}[${BIWhite}5${red}]👉 SETING " "  ${BICyan}[${BIWhite}10${red}]👉 SET REBOOT"
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
