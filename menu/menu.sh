@@ -248,7 +248,7 @@ export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "${Red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${red}              👑 ALVI CELL TUNNEL 👑                          ${NC}"
+echo -e "${red}              👑  ALVI CELL TUNNEL 👑                          ${NC}"
 echo -e "${Red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e "${BIYellow}□ Server Uptime       = ${GREEN}$( uptime -p  | cut -d " " -f 2-10000 ) ${NC}"
