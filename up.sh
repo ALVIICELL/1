@@ -51,7 +51,7 @@ rm -rf instal-udp
 rm -rf jam
 rm -rf up
 rm -rf genssl
-rm -rf slow
+rm -rf slowdns
 rm -rf up
 
 # download script
@@ -66,7 +66,7 @@ wget -O clearcache "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/clea
 wget -O menu-trgo "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/ALVIICELL/1/main/menu/menu-trojan.sh"
 wget -O up "https://raw.githubusercontent.com/ALVIICELL/1/main/up.sh"
-wget -O slow "https://raw.githubusercontent.com/ALVIICELL/1/main/slow.sh"
+wget -O slow "https://raw.githubusercontent.com/ALVIICELL/1/main/slowdns.sh"
 wget -O cf "https://raw.githubusercontent.com/ALVIICELL/1/main/cf.sh"
 
 # menu ssh ovpn
