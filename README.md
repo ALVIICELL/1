@@ -3,5 +3,5 @@
 
 
 # scan qris untuk pembayaran
-![logo](https://raw.githubusercontent.com/ALVIICELL/1/main/QRIS.jpEg
+![logo](https://raw.githubusercontent.com/ALVIICELL/1/main/QRIS.jpeg
 )
